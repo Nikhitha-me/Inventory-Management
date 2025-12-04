@@ -1,0 +1,51 @@
+# Ignore Node modules
+inventory-frontend/node_modules/
+
+# Ignore build folders
+inventory-frontend/build/
+inventory-frontend/dist/
+
+# React env files
+inventory-frontend/.env
+inventory-frontend/.env.local
+inventory-frontend/.env.development
+inventory-frontend/.env.production
+inventory-frontend/.env.test
+
+# Spring Boot build & logs
+demo/target/
+demo/build/
+demo/.mvn/wrapper/maven-wrapper.jar
+demo/logs/
+
+# Spring Boot env / sensitive files
+demo/.env
+demo/application.properties
+demo/application.yml
+demo/application-dev.properties
+demo/application-prod.properties
+
+# OS / Editor files
+*.log
+*.DS_Store
+Thumbs.db
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Git internal
+.gitattributes
+.gitconfig
+
+# Temp files
+*.tmp
+
+demo/credentials.json
+
+# Backend secrets
+demo/src/main/resources/credentials.json
+demo/src/main/resources/application.properties
+demo/src/main/resources/application.yml
+demo/.env
